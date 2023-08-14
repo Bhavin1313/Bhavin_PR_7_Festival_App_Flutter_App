@@ -105,7 +105,7 @@ class _Create_PostState extends State<Create_Post> {
             ),
           ),
         ],
-        backgroundColor: Color(0xff002564),
+        backgroundColor: Color(0xffd1eadd),
       ),
       body: Stack(
         children: [
@@ -114,7 +114,8 @@ class _Create_PostState extends State<Create_Post> {
             width: double.infinity,
             decoration: BoxDecoration(
                 image: DecorationImage(
-              image: AssetImage("lib/Components/Assets/images (9).jpg"),
+              image: AssetImage(
+                  "lib/Components/Assets/Color Accessibility _ UX Best Practices for Using Color in Design.webp"),
               fit: BoxFit.cover,
             )),
           ),
@@ -216,7 +217,7 @@ class _Create_PostState extends State<Create_Post> {
                       width: w * .9,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Colors.blue,
+                        color: Color(0xffd1eadd),
                       ),
                       alignment: Alignment.center,
                       child: Text(
@@ -284,7 +285,7 @@ class _Create_PostState extends State<Create_Post> {
                       width: w * .9,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Colors.blue,
+                        color: Color(0xffd1eadd),
                       ),
                       alignment: Alignment.center,
                       child: Text(
@@ -344,7 +345,7 @@ class _Create_PostState extends State<Create_Post> {
                       width: w * .9,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Colors.blue,
+                        color: Color(0xffd1eadd),
                       ),
                       alignment: Alignment.center,
                       child: Text(
@@ -408,7 +409,7 @@ class _Create_PostState extends State<Create_Post> {
                       width: w * .9,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Colors.blue,
+                        color: Color(0xffd1eadd),
                       ),
                       alignment: Alignment.center,
                       child: Text(

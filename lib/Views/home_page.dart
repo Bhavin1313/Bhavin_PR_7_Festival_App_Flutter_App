@@ -38,7 +38,7 @@ class _Home_PageState extends State<Home_Page> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Color(0xff70cbe9),
+        backgroundColor: Color(0xffd1eadd),
         elevation: 2,
         shadowColor: Colors.grey,
         actions: [
@@ -69,7 +69,8 @@ class _Home_PageState extends State<Home_Page> {
             width: double.infinity,
             decoration: BoxDecoration(
                 image: DecorationImage(
-              image: AssetImage("lib/Components/Assets/bg1.jpg"),
+              image: AssetImage(
+                  "lib/Components/Assets/Color Accessibility _ UX Best Practices for Using Color in Design.webp"),
               fit: BoxFit.cover,
             )),
           ),
@@ -133,7 +134,7 @@ class _Home_PageState extends State<Home_Page> {
                           width: 2,
                         ),
                         borderRadius: BorderRadius.circular(20),
-                        color: Colors.white,
+                        color: Color(0xffd1eadd),
                       ),
                       alignment: Alignment.center,
                       child: Text(
@@ -162,7 +163,7 @@ class _Home_PageState extends State<Home_Page> {
                           width: 2,
                         ),
                         borderRadius: BorderRadius.circular(20),
-                        color: Colors.white,
+                        color: Color(0xffd1eadd),
                       ),
                       alignment: Alignment.center,
                       child: Text(

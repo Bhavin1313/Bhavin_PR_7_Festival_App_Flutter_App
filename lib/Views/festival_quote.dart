@@ -41,7 +41,7 @@ class _All_QuotesState extends State<All_Quotes> {
           (isToggled == true) ? Icons.grid_3x3 : Icons.list,
           color: Colors.black.withOpacity(.8),
         ),
-        backgroundColor: Colors.greenAccent.withOpacity(.74),
+        backgroundColor: Color(0xffebcecc).withOpacity(.74),
       ),
       appBar: AppBar(
         centerTitle: true,
@@ -51,7 +51,7 @@ class _All_QuotesState extends State<All_Quotes> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Color(0xff59a71b),
+        backgroundColor: Color(0xffd1eadd),
         leading: IconButton(
           onPressed: () {
             Navigator.pop(context);
@@ -90,7 +90,7 @@ class _All_QuotesState extends State<All_Quotes> {
             decoration: BoxDecoration(
                 image: DecorationImage(
               image: AssetImage(
-                  "lib/Components/Assets/wwabstract-background-green-1-scaled.jpg"),
+                  "lib/Components/Assets/Color Accessibility _ UX Best Practices for Using Color in Design.webp"),
               fit: BoxFit.cover,
             )),
           ),
@@ -107,12 +107,7 @@ class _All_QuotesState extends State<All_Quotes> {
                       child: Container(
                         height: h * .3,
                         decoration: BoxDecoration(
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/w1rm218batch5-katie-20_1.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
+                          color: Color(0xffe8eaa2),
                           borderRadius: BorderRadius.circular(20),
                         ),
                         child: Column(
@@ -162,12 +157,7 @@ class _All_QuotesState extends State<All_Quotes> {
                       child: Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(20),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/360_F_244394607_jvFiVq47yD0EZBGaFGhmTFfIz7e1llDL.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
+                          color: Color(0xffe8eaa2),
                         ),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,

@@ -50,7 +50,7 @@ class _Post_MakerState extends State<Post_Maker> {
             color: Colors.black,
           ),
         ),
-        backgroundColor: Color(0xffc3dce3),
+        backgroundColor: Color(0xffd1eadd),
         elevation: 2,
         shadowColor: Colors.grey,
       ),
@@ -61,7 +61,8 @@ class _Post_MakerState extends State<Post_Maker> {
             width: double.infinity,
             decoration: BoxDecoration(
                 image: DecorationImage(
-              image: AssetImage("lib/Components/Assets/thumbnail.jpg"),
+              image: AssetImage(
+                  "lib/Components/Assets/Color Accessibility _ UX Best Practices for Using Color in Design.webp"),
               fit: BoxFit.cover,
             )),
           ),
@@ -211,7 +212,7 @@ class _Post_MakerState extends State<Post_Maker> {
                               width: 2,
                             ),
                             borderRadius: BorderRadius.circular(20),
-                            color: Colors.white,
+                            color: Color(0xffd1eadd),
                           ),
                           alignment: Alignment.center,
                           child: Text(

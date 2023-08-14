@@ -101,7 +101,7 @@ class _Detail_PageState extends State<Detail_Page> {
             ),
           ),
         ],
-        backgroundColor: Color(0xfffe9baa),
+        backgroundColor: Color(0xffd1eadd),
       ),
       body: Stack(
         children: [
@@ -111,7 +111,7 @@ class _Detail_PageState extends State<Detail_Page> {
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage(
-                  "lib/Components/Assets/w-qjCHPZbeXCQ-unsplash.jpg",
+                  "lib/Components/Assets/Color Accessibility _ UX Best Practices for Using Color in Design.webp",
                 ),
                 fit: BoxFit.cover,
               ),
@@ -208,7 +208,7 @@ class _Detail_PageState extends State<Detail_Page> {
                       width: w * .9,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Colors.white,
+                        color: Color(0xffd1eadd),
                       ),
                       alignment: Alignment.center,
                       child: Text(
@@ -276,7 +276,7 @@ class _Detail_PageState extends State<Detail_Page> {
                       width: w * .9,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Colors.white,
+                        color: Color(0xffd1eadd),
                       ),
                       alignment: Alignment.center,
                       child: Text(
@@ -336,7 +336,7 @@ class _Detail_PageState extends State<Detail_Page> {
                       width: w * .9,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Colors.white,
+                        color: Color(0xffd1eadd),
                       ),
                       alignment: Alignment.center,
                       child: Text(
@@ -400,7 +400,7 @@ class _Detail_PageState extends State<Detail_Page> {
                       width: w * .9,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Colors.white,
+                        color: Color(0xffd1eadd),
                       ),
                       alignment: Alignment.center,
                       child: Text(

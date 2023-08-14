@@ -21,7 +21,7 @@ class _WallPaperState extends State<WallPaper> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.deepPurpleAccent,
+        backgroundColor: Color(0xffd1eadd),
         elevation: 2,
         shadowColor: Colors.grey,
         actions: [
@@ -51,7 +51,7 @@ class _WallPaperState extends State<WallPaper> {
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage(
-                    "lib/Components/Assets/iPhone-14-Purple-wallpaper.png"),
+                    "lib/Components/Assets/Color Accessibility _ UX Best Practices for Using Color in Design.webp"),
                 fit: BoxFit.cover,
               ),
             ),

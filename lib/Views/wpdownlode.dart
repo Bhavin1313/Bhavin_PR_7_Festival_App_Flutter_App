@@ -54,7 +54,7 @@ class _DownlodeState extends State<Downlode> {
             fontWeight: FontWeight.bold,
           ),
         ),
-        backgroundColor: Colors.deepPurpleAccent,
+        backgroundColor: Color(0xffd1eadd),
         elevation: 2,
         shadowColor: Colors.grey,
         actions: [
@@ -86,7 +86,7 @@ class _DownlodeState extends State<Downlode> {
             decoration: BoxDecoration(
               image: DecorationImage(
                 image: AssetImage(
-                    "lib/Components/Assets/iPhone-14-Purple-wallpaper.png"),
+                    "lib/Components/Assets/Color Accessibility _ UX Best Practices for Using Color in Design.webp"),
                 fit: BoxFit.cover,
               ),
             ),
