@@ -149,256 +149,6 @@ class _Home_PageState extends State<Home_Page> {
                   SizedBox(
                     height: 18,
                   ),
-                  Text(
-                    "LIST OF FESTIVAL",
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      fontSize: 20,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 18,
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        height: h * .35,
-                        width: w * .42,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black,
-                            width: 2,
-                          ),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                      Spacer(),
-                      Container(
-                        height: h * .35,
-                        width: w * .42,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black,
-                            width: 2,
-                          ),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/Default_holi_colorfull_background_2.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 18,
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        height: h * .35,
-                        width: w * .42,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black,
-                            width: 2,
-                          ),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                      Spacer(),
-                      Container(
-                        height: h * .35,
-                        width: w * .42,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black,
-                            width: 2,
-                          ),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 18,
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        height: h * .35,
-                        width: w * .42,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black,
-                            width: 2,
-                          ),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                      Spacer(),
-                      Container(
-                        height: h * .35,
-                        width: w * .42,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black,
-                            width: 2,
-                          ),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 18,
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        height: h * .35,
-                        width: w * .42,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black,
-                            width: 2,
-                          ),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                      Spacer(),
-                      Container(
-                        height: h * .35,
-                        width: w * .42,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black,
-                            width: 2,
-                          ),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 18,
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        height: h * .35,
-                        width: w * .42,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black,
-                            width: 2,
-                          ),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                      Spacer(),
-                      Container(
-                        height: h * .35,
-                        width: w * .42,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black,
-                            width: 2,
-                          ),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 18,
-                  ),
-                  Row(
-                    children: [
-                      Container(
-                        height: h * .35,
-                        width: w * .42,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black,
-                            width: 2,
-                          ),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                      Spacer(),
-                      Container(
-                        height: h * .35,
-                        width: w * .42,
-                        decoration: BoxDecoration(
-                          border: Border.all(
-                            color: Colors.black,
-                            width: 2,
-                          ),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
-                            ),
-                            fit: BoxFit.cover,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                  SizedBox(
-                    height: 18,
-                  ),
                   GestureDetector(
                     onTap: () {
                       Navigator.pushNamed(context, "all_Quotes");
@@ -427,6 +177,66 @@ class _Home_PageState extends State<Home_Page> {
                   ),
                   SizedBox(
                     height: 20,
+                  ),
+                  Text(
+                    "WALLPAPER",
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 18,
+                  ),
+                  Row(
+                    children: [
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.pushNamed(context, "wallpaper");
+                        },
+                        child: Container(
+                          height: h * .35,
+                          width: w * .42,
+                          decoration: BoxDecoration(
+                            border: Border.all(
+                              color: Colors.black,
+                              width: 2,
+                            ),
+                            image: DecorationImage(
+                              image: AssetImage(
+                                "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
+                      ),
+                      Spacer(),
+                      GestureDetector(
+                        onTap: () {
+                          Navigator.pushNamed(context, "wallpaper");
+                        },
+                        child: Container(
+                          height: h * .35,
+                          width: w * .42,
+                          decoration: BoxDecoration(
+                            border: Border.all(
+                              color: Colors.black,
+                              width: 2,
+                            ),
+                            image: DecorationImage(
+                              image: AssetImage(
+                                "lib/Components/Assets/Default_holi_colorfull_background_2.jpg",
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  SizedBox(
+                    height: 18,
                   ),
                 ],
               ),

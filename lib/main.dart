@@ -1,6 +1,8 @@
 import 'package:festival_post/Views/create_post.dart';
 import 'package:festival_post/Views/details_page.dart';
 import 'package:festival_post/Views/post_maker.dart';
+import 'package:festival_post/Views/wallpaper.dart';
+import 'package:festival_post/Views/wpdownlode.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -21,6 +23,8 @@ void main() {
         'post_maker': (context) => Post_Maker(),
         'create_post': (context) => Create_Post(),
         'details_page': (context) => Detail_Page(),
+        'wallpaper': (context) => WallPaper(),
+        'download': (context) => Downlode(),
       },
     ),
   );

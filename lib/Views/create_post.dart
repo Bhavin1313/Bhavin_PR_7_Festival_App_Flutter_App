@@ -122,6 +122,7 @@ class _Create_PostState extends State<Create_Post> {
             child: Center(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   SizedBox(
                     height: 20,
@@ -170,131 +171,65 @@ class _Create_PostState extends State<Create_Post> {
                   SizedBox(
                     height: 10,
                   ),
-                  SingleChildScrollView(
-                    scrollDirection: Axis.horizontal,
-                    child: Row(
-                      children: Global.bgColorList
-                          .map(
-                            (e) => GestureDetector(
-                              onTap: () {
-                                setState(() {
-                                  Global.bgColor = e;
-                                });
-                              },
-                              child: Container(
-                                height: 100,
-                                width: 100,
-                                margin: EdgeInsets.all(5),
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(10),
-                                  color: e,
-                                ),
-                                alignment: Alignment.center,
-                                child: Text(
-                                  "BG COLOR",
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                  ),
+                  GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        showDialog(
+                          context: context,
+                          builder: (context) => Center(
+                            child: Container(
+                              height: h * .3,
+                              width: w * .8,
+                              child: SingleChildScrollView(
+                                child: Wrap(
+                                  children: Global.bgColorList
+                                      .map(
+                                        (e) => GestureDetector(
+                                          onTap: () {
+                                            setState(() {
+                                              Global.bgColor = e;
+                                            });
+                                            Navigator.pop(context);
+                                          },
+                                          child: Container(
+                                            height: 50,
+                                            width: 50,
+                                            margin: EdgeInsets.all(2),
+                                            decoration: BoxDecoration(
+                                              borderRadius:
+                                                  BorderRadius.circular(10),
+                                              color: e,
+                                            ),
+                                          ),
+                                        ),
+                                      )
+                                      .toList(),
                                 ),
                               ),
                             ),
-                          )
-                          .toList(),
+                          ),
+                        );
+                      });
+                    },
+                    child: Container(
+                      height: h * .1,
+                      width: w * .9,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
+                        color: Colors.blue,
+                      ),
+                      alignment: Alignment.center,
+                      child: Text(
+                        "Change BackGroung Color",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 22,
+                        ),
+                      ),
                     ),
                   ),
-                  SingleChildScrollView(
-                    scrollDirection: Axis.horizontal,
-                    child: Row(
-                      children: Global.fontFamilyList
-                          .map(
-                            (e) => GestureDetector(
-                              onTap: () {
-                                setState(() {
-                                  Global.fontFamily = e;
-                                });
-                              },
-                              child: Container(
-                                height: 60,
-                                width: 60,
-                                margin: EdgeInsets.all(5),
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(10),
-                                  color: Colors.white,
-                                ),
-                                alignment: Alignment.center,
-                                child: Text(
-                                  "A a",
-                                  style: GoogleFonts.getFont(e).copyWith(
-                                    fontSize: 20,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          )
-                          .toList(),
-                    ),
-                  ),
-                  SingleChildScrollView(
-                    scrollDirection: Axis.horizontal,
-                    child: Row(
-                      children: Global.bgColorList
-                          .map(
-                            (e) => GestureDetector(
-                              onTap: () {
-                                setState(() {
-                                  Global.fontColor = e;
-                                });
-                              },
-                              child: Container(
-                                height: 70,
-                                width: 70,
-                                margin: EdgeInsets.all(5),
-                                decoration: BoxDecoration(
-                                  borderRadius: BorderRadius.circular(10),
-                                  color: e,
-                                ),
-                                alignment: Alignment.center,
-                                child: Text(
-                                  "Text Color",
-                                  style: TextStyle(
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          )
-                          .toList(),
-                    ),
-                  ),
-                  SingleChildScrollView(
-                    scrollDirection: Axis.horizontal,
-                    child: Row(
-                      children: Global.bgImageList
-                          .map(
-                            (e) => GestureDetector(
-                              onTap: () {
-                                setState(() {
-                                  Global.bgImage = e;
-                                });
-                              },
-                              child: Container(
-                                height: 100,
-                                width: 100,
-                                margin: EdgeInsets.all(5),
-                                decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                    image: AssetImage(e),
-                                    fit: BoxFit.cover,
-                                  ),
-                                  borderRadius: BorderRadius.circular(10),
-                                  color: Colors.white,
-                                ),
-                                alignment: Alignment.center,
-                              ),
-                            ),
-                          )
-                          .toList(),
-                    ),
+                  SizedBox(
+                    height: 10,
                   ),
                   GestureDetector(
                     onTap: () {
@@ -345,16 +280,149 @@ class _Create_PostState extends State<Create_Post> {
                       });
                     },
                     child: Container(
-                      height: 100,
-                      width: 100,
+                      height: h * .1,
+                      width: w * .9,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Colors.white,
+                        color: Colors.blue,
                       ),
                       alignment: Alignment.center,
-                      child: Text("Change Font Style"),
+                      child: Text(
+                        "Change Font Style",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 22,
+                        ),
+                      ),
                     ),
-                  )
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        showDialog(
+                          context: context,
+                          builder: (context) => Center(
+                            child: Container(
+                              height: h * .3,
+                              width: w * .8,
+                              child: SingleChildScrollView(
+                                child: Wrap(
+                                  children: Global.bgColorList
+                                      .map(
+                                        (e) => GestureDetector(
+                                          onTap: () {
+                                            setState(() {
+                                              Global.fontColor = e;
+                                            });
+                                            Navigator.pop(context);
+                                          },
+                                          child: Container(
+                                            height: 50,
+                                            width: 50,
+                                            margin: EdgeInsets.all(2),
+                                            decoration: BoxDecoration(
+                                              borderRadius:
+                                                  BorderRadius.circular(10),
+                                              color: e,
+                                            ),
+                                          ),
+                                        ),
+                                      )
+                                      .toList(),
+                                ),
+                              ),
+                            ),
+                          ),
+                        );
+                      });
+                    },
+                    child: Container(
+                      height: h * .1,
+                      width: w * .9,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
+                        color: Colors.blue,
+                      ),
+                      alignment: Alignment.center,
+                      child: Text(
+                        "Change Font Color",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 22,
+                        ),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  GestureDetector(
+                    onTap: () {
+                      setState(() {
+                        showDialog(
+                          context: context,
+                          builder: (context) => Center(
+                            child: Container(
+                              height: h * .3,
+                              width: w * .8,
+                              child: SingleChildScrollView(
+                                child: Wrap(
+                                  children: Global.bgImageList
+                                      .map(
+                                        (e) => GestureDetector(
+                                          onTap: () {
+                                            setState(() {
+                                              Global.bgImage = e;
+                                            });
+                                            Navigator.pop(context);
+                                          },
+                                          child: Container(
+                                            height: 90,
+                                            width: 90,
+                                            margin: EdgeInsets.all(2),
+                                            decoration: BoxDecoration(
+                                              image: DecorationImage(
+                                                image: AssetImage("${e}"),
+                                                fit: BoxFit.cover,
+                                              ),
+                                              borderRadius:
+                                                  BorderRadius.circular(10),
+                                              color: Colors.white,
+                                            ),
+                                          ),
+                                        ),
+                                      )
+                                      .toList(),
+                                ),
+                              ),
+                            ),
+                          ),
+                        );
+                      });
+                    },
+                    child: Container(
+                      height: h * .1,
+                      width: w * .9,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(20),
+                        color: Colors.blue,
+                      ),
+                      alignment: Alignment.center,
+                      child: Text(
+                        "Change BackGroung Image",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 22,
+                        ),
+                      ),
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
                 ],
               ),
             ),
@@ -364,3 +432,130 @@ class _Create_PostState extends State<Create_Post> {
     );
   }
 }
+
+// SingleChildScrollView(
+// scrollDirection: Axis.horizontal,
+// child: Row(
+// children: Global.bgColorList
+//     .map(
+// (e) => GestureDetector(
+// onTap: () {
+// setState(() {
+// Global.bgColor = e;
+// });
+// },
+// child: Container(
+// height: 100,
+// width: 100,
+// margin: EdgeInsets.all(5),
+// decoration: BoxDecoration(
+// borderRadius: BorderRadius.circular(10),
+// color: e,
+// ),
+// alignment: Alignment.center,
+// child: Text(
+// "BG COLOR",
+// style: TextStyle(
+// fontWeight: FontWeight.bold,
+// ),
+// ),
+// ),
+// ),
+// )
+//     .toList(),
+// ),
+// ),
+// SingleChildScrollView(
+// scrollDirection: Axis.horizontal,
+// child: Row(
+// children: Global.fontFamilyList
+//     .map(
+// (e) => GestureDetector(
+// onTap: () {
+// setState(() {
+// Global.fontFamily = e;
+// });
+// },
+// child: Container(
+// height: 60,
+// width: 60,
+// margin: EdgeInsets.all(5),
+// decoration: BoxDecoration(
+// borderRadius: BorderRadius.circular(10),
+// color: Colors.white,
+// ),
+// alignment: Alignment.center,
+// child: Text(
+// "A a",
+// style: GoogleFonts.getFont(e).copyWith(
+// fontSize: 20,
+// ),
+// ),
+// ),
+// ),
+// )
+//     .toList(),
+// ),
+// ),
+// SingleChildScrollView(
+// scrollDirection: Axis.horizontal,
+// child: Row(
+// children: Global.bgColorList
+//     .map(
+// (e) => GestureDetector(
+// onTap: () {
+// setState(() {
+// Global.fontColor = e;
+// });
+// },
+// child: Container(
+// height: 70,
+// width: 70,
+// margin: EdgeInsets.all(5),
+// decoration: BoxDecoration(
+// borderRadius: BorderRadius.circular(10),
+// color: e,
+// ),
+// alignment: Alignment.center,
+// child: Text(
+// "Text Color",
+// style: TextStyle(
+// fontWeight: FontWeight.bold,
+// ),
+// ),
+// ),
+// ),
+// )
+//     .toList(),
+// ),
+// ),
+// SingleChildScrollView(
+// scrollDirection: Axis.horizontal,
+// child: Row(
+// children: Global.bgImageList
+//     .map(
+// (e) => GestureDetector(
+// onTap: () {
+// setState(() {
+// Global.bgImage = e;
+// });
+// },
+// child: Container(
+// height: 100,
+// width: 100,
+// margin: EdgeInsets.all(5),
+// decoration: BoxDecoration(
+// image: DecorationImage(
+// image: AssetImage(e),
+// fit: BoxFit.cover,
+// ),
+// borderRadius: BorderRadius.circular(10),
+// color: Colors.white,
+// ),
+// alignment: Alignment.center,
+// ),
+// ),
+// )
+//     .toList(),
+// ),
+// ),

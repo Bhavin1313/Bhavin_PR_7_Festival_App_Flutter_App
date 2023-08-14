@@ -17,6 +17,35 @@ class Global {
   static String bgImage = "";
   static String fontFamily = "Roboto";
 
+  static List<String> wallPaperList = [
+    "lib/Components/Assets/Default_diwali_festival_background_0.jpg",
+    "lib/Components/Assets/Default_diwali_festival_background_1.jpg",
+    "lib/Components/Assets/Default_diwali_festival_background_lantern_on_ceiling_and_deco_0.jpg",
+    "lib/Components/Assets/Default_diwali_festival_background_lantern_on_ceiling_and_deco_1.jpg",
+    "lib/Components/Assets/Default_diwali_festival_background_lantern_on_ceiling_and_deco_2.jpg",
+    "lib/Components/Assets/Default_diwali_festival_background_lantern_on_ceiling_and_deco_3.jpg",
+    "lib/Components/Assets/Default_holi_colorfull_background_0.jpg",
+    "lib/Components/Assets/Default_holi_colorfull_background_2.jpg",
+    "lib/Components/Assets/Default_holi_colorfull_background_3.jpg",
+    "lib/Components/Assets/Default_holi_colorfull_background_5.jpg",
+    "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_1.jpg",
+    "lib/Components/Assets/DreamShaper_v7_diwali_festival_background_2.jpg",
+    "lib/Components/Assets/450w-quP71eOhjTI.webp",
+    "lib/Components/Assets/900w-D0iGbUPXGiU.webp",
+    "lib/Components/Assets/1080x1920-ugd930ckdcujq44s.jpg",
+    "lib/Components/Assets/1600w-JLofAI27pCg.webp",
+    "lib/Components/Assets/8541.jpg",
+    "lib/Components/Assets/23931cec40eee9526c3d89206070e7af.jpg",
+    "lib/Components/Assets/1664421362-shiva-wallpaper-moon-on-his-head-mb.avif",
+    "lib/Components/Assets/desktop-wallpaper-nature-for-android-group-3d-nature-for-mobile.jpg",
+    "lib/Components/Assets/HD-wallpaper-nature-beautiful.jpg",
+    "lib/Components/Assets/milky-way-2695569_1280.jpg",
+    "lib/Components/Assets/pexels-roberto-nickson-2486168.jpg",
+    "lib/Components/Assets/pngtree-pink-marble-abstract-texture-mobile-phone-wallpaper-picture-image_1351947.jpg",
+    "lib/Components/Assets/The_Verge_Wallpaper_Pixel_6.0.jpg",
+    "lib/Components/Assets/v535batch2-mynt-43.jpg",
+  ];
+
   static List<String> fontFamilyList = [
     "Abel",
     "Abril Fatface",
