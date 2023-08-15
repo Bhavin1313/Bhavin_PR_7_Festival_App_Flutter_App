@@ -1,16 +1,15 @@
-# festival_post
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 12 19](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/ea6c3a7a-3731-4f57-a3c5-c6766baa5fde)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 12 00](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/f6bb2ba7-eef9-478c-af33-4a0ac519db1a)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 11 40](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/3b55b57b-6760-42e4-8a1a-1ee440ae35fd)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 11 06](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/25f61d81-4b6d-4cf0-a83b-f260112799e8)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 10 58](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/ce0d8838-b1fc-440b-a318-4996d976fca2)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 10 22](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/cbe4b894-8885-4927-a31c-d4cde0e3b548)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 09 55](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/4b4fa1a3-a8a3-42d6-9c1d-a3da0b620006)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 09 05](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/fb9e398b-dd9d-4806-82af-9227bc0c81b5)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 08 58](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/daedabb0-0b5b-4811-b8a2-da09c27670ba)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 08 52](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/7aec9cbd-5272-4ee2-8a68-30cc19cedc6f)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 08 24](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/a9d8a58d-b0d9-41d9-9395-17ad59e21991)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 06 34](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/ebc76571-83a3-4702-a5fc-b017daacfeef)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-15 at 16 06 15](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/bb6dd5df-37fb-485c-ba7b-0c14031d1c71)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-14 at 16 31 14](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/0cfea5bc-9972-4a97-998a-94850bf816ec)
+![Simulator Screenshot - iPhone 14 Pro - 2023-08-14 at 16 31 08](https://github.com/Bhavin1313/Bhavin_PR_7_Festival_App_Flutter_App/assets/99348404/4cbb0fac-0c3f-4d3e-8eb1-6cf580dc885e)
