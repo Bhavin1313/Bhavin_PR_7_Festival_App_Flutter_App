@@ -11,63 +11,63 @@ List<Map<String, dynamic>> FestivalQuoteList = [
         "Wishing you a Diwali filled with love, laughter, and the warmth of family bonds.",
     "festival_name": "Happy Diwali",
     "festival_image":
-        "https://img.freepik.com/free-vector/bright-yellow-stylish-happy-diwali-festival-background_1055-9320.jpg?w=2000",
+        "https://t3.ftcdn.net/jpg/04/52/27/28/360_F_452272870_Hf8nMY4LmJuKFZ26r4AvZVWli9n0aURM.jpg",
   },
   {
     "quote":
         "Let the diyas of Diwali illuminate your life with hope, positivity, and happiness.",
     "festival_name": "Happy Diwali",
     "festival_image":
-        "https://img.freepik.com/free-vector/bright-yellow-stylish-happy-diwali-festival-background_1055-9320.jpg?w=2000",
+        "https://i.pinimg.com/originals/a8/2b/66/a82b6647451a1119ce269e1b7beb586a.jpg",
   },
   {
     "quote":
         "May the sweets of Diwali sweeten your relationships and the crackers of joy light up your heart.",
     "festival_name": "Happy Diwali",
     "festival_image":
-        "https://img.freepik.com/free-vector/bright-yellow-stylish-happy-diwali-festival-background_1055-9320.jpg?w=2000",
+        "https://img.freepik.com/free-vector/decorative-happy-diwali-festival-background-with-text-space_1017-34090.jpg",
   },
   {
     "quote":
         "Wishing you a Diwali that sparkles with moments of love, sharing, and gratitude.",
     "festival_name": "Happy Diwali",
     "festival_image":
-        "https://img.freepik.com/free-vector/bright-yellow-stylish-happy-diwali-festival-background_1055-9320.jpg?w=2000",
+        "https://media.istockphoto.com/id/1054222412/vector/diwali-festival-background-round-floral-ornament.jpg?s=612x612&w=0&k=20&c=jDOhRZr4s58hgJy16CutZiVTfAPconO8iXho09ms6xc=",
   },
   {
     "quote":
         "Let the festivities of Diwali fill your days with peace, prosperity, and divine blessings.",
     "festival_name": "Happy Diwali",
     "festival_image":
-        "https://img.freepik.com/free-vector/bright-yellow-stylish-happy-diwali-festival-background_1055-9320.jpg?w=2000",
+        "https://i.pinimg.com/736x/8e/1d/a5/8e1da5b7480c2189bfce20d08c9be7ad.jpg",
   },
   {
     "quote":
         "May the victory of light over darkness in Diwali inspire you to overcome challenges.",
     "festival_name": "Happy Diwali",
     "festival_image":
-        "https://img.freepik.com/free-vector/bright-yellow-stylish-happy-diwali-festival-background_1055-9320.jpg?w=2000",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy1vbxtcEIeLizle3Pz8ODNKOLdFkdbY8_wgoJnqXNFWOmpO5T3D9EM8N0lvfnWvgBK_w&usqp=CAU",
   },
   {
     "quote":
         "Wishing you a Diwali that brings the glow of happiness and the dazzle of success.",
     "festival_name": "Happy Diwali",
     "festival_image":
-        "https://img.freepik.com/free-vector/bright-yellow-stylish-happy-diwali-festival-background_1055-9320.jpg?w=2000",
+        "https://static.vecteezy.com/system/resources/thumbnails/011/862/394/small/diwali-festival-background-free-vector.jpg",
   },
   {
     "quote":
         "Let the rangoli of Diwali decorate your life with vibrant colors of joy and celebration.",
     "festival_name": "Happy Diwali",
     "festival_image":
-        "https://img.freepik.com/free-vector/bright-yellow-stylish-happy-diwali-festival-background_1055-9320.jpg?w=2000",
+        "https://static3.depositphotos.com/1001941/250/v/450/depositphotos_2503776-stock-illustration-illustration-of-diwali-background.jpg",
   },
   {
     "quote":
         "May your Diwali be a festival of love, lights, and memorable moments with loved ones.",
     "festival_name": "Happy Diwali",
     "festival_image":
-        "https://img.freepik.com/free-vector/bright-yellow-stylish-happy-diwali-festival-background_1055-9320.jpg?w=2000",
+        "https://media.istockphoto.com/id/1347058039/photo/happy-diwali-indian-holiday-events-on-a-religious-festival-diwali-oil-lamp-animation-with.webp?b=1&s=170667a&w=0&k=20&c=hFT8TPdNh-2vMNjqjIVCbumVOll_58b2_HbukVnI8bo=",
   },
   {
     "quote":

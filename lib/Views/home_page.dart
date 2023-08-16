@@ -43,20 +43,9 @@ class _Home_PageState extends State<Home_Page> {
         shadowColor: Colors.grey,
         actions: [
           IconButton(
-            onPressed: () {
-              setState(() {
-                showDialog(
-                  context: context,
-                  builder: (context) => AlertDialog(
-                    elevation: 5,
-                    title: Text("${quotes.quote}"),
-                    content: Text("- ${quotes.festival_name}"),
-                  ),
-                );
-              });
-            },
+            onPressed: () {},
             icon: const Icon(
-              Icons.refresh,
+              Icons.account_circle_outlined,
               color: Colors.black,
             ),
           )
@@ -134,7 +123,7 @@ class _Home_PageState extends State<Home_Page> {
                           width: 2,
                         ),
                         borderRadius: BorderRadius.circular(20),
-                        color: Color(0xffd1eadd),
+                        color: Color(0xffd1eadd).withOpacity(.4),
                       ),
                       alignment: Alignment.center,
                       child: Text(
@@ -163,7 +152,7 @@ class _Home_PageState extends State<Home_Page> {
                           width: 2,
                         ),
                         borderRadius: BorderRadius.circular(20),
-                        color: Color(0xffd1eadd),
+                        color: Color(0xffd1eadd).withOpacity(.4),
                       ),
                       alignment: Alignment.center,
                       child: Text(

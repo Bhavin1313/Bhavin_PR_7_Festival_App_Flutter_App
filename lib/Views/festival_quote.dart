@@ -95,110 +95,125 @@ class _All_QuotesState extends State<All_Quotes> {
             )),
           ),
           (isToggled == true)
-              ? ListView.builder(
-                  itemCount: Global.QuotsData.length,
-                  itemBuilder: (BuildContext context, int i) => Padding(
-                    padding: const EdgeInsets.all(12.0),
-                    child: GestureDetector(
-                      onTap: () {
-                        Navigator.pushNamed(context, "details_page",
-                            arguments: Global.QuotsData[i]);
-                      },
-                      child: Container(
-                        height: h * .3,
-                        decoration: BoxDecoration(
-                          color: Color(0xffe8eaa2),
-                          borderRadius: BorderRadius.circular(20),
-                        ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.all(10),
-                              child: Text(
-                                "${Global.QuotsData[i].quote}",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 20,
+              ? Scrollbar(
+                  child: ListView.builder(
+                    itemCount: Global.QuotsData.length,
+                    itemBuilder: (BuildContext context, int i) => Padding(
+                      padding: const EdgeInsets.all(12.0),
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.pushNamed(context, "details_page",
+                              arguments: Global.QuotsData[i]);
+                        },
+                        child: Container(
+                          height: h * .3,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage(
+                                "lib/Components/Assets/pngtree-yellow-indian-ten-victories-festival-publicity-background-picture-image_1288032.jpg",
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.all(10),
+                                child: Text(
+                                  "${Global.QuotsData[i].quote}",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 20,
+                                  ),
                                 ),
                               ),
-                            ),
-                            SizedBox(
-                              height: 10,
-                            ),
-                            Text(
-                              "- ${Global.QuotsData[i].festival_name}",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontWeight: FontWeight.w600,
-                                fontSize: 15,
+                              SizedBox(
+                                height: 10,
                               ),
-                            ),
-                          ],
+                              Text(
+                                "- ${Global.QuotsData[i].festival_name}",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w600,
+                                  fontSize: 15,
+                                ),
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ),
                   ),
                 )
-              : GridView.builder(
-                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 2,
-                  ),
-                  itemCount: Global.QuotsData.length,
-                  itemBuilder: (BuildContext context, int i) => GestureDetector(
-                    onTap: () {
-                      Navigator.pushNamed(context, "details_page",
-                          arguments: Global.QuotsData[i]);
-                    },
-                    child: Padding(
-                      padding: const EdgeInsets.all(12.0),
-                      child: Container(
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(20),
-                          color: Color(0xffe8eaa2),
-                        ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Padding(
-                              padding: const EdgeInsets.only(left: 8.0),
-                              child: Container(
-                                padding: EdgeInsets.all(5),
-                                height: 90,
-                                child: SingleChildScrollView(
-                                  child: Text(
-                                    "${Global.QuotsData[i].quote}",
-                                    overflow: TextOverflow.fade,
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.bold,
-                                      fontSize: 20,
+              : Scrollbar(
+                  child: GridView.builder(
+                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                      crossAxisCount: 2,
+                    ),
+                    itemCount: Global.QuotsData.length,
+                    itemBuilder: (BuildContext context, int i) =>
+                        GestureDetector(
+                      onTap: () {
+                        Navigator.pushNamed(context, "details_page",
+                            arguments: Global.QuotsData[i]);
+                      },
+                      child: Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(20),
+                            image: DecorationImage(
+                              image: AssetImage(
+                                "lib/Components/Assets/depositphotos_75822115-stock-illustration-orange-indian-pattern.jpg",
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Padding(
+                                padding: const EdgeInsets.only(left: 8.0),
+                                child: Container(
+                                  padding: EdgeInsets.all(5),
+                                  height: 90,
+                                  child: SingleChildScrollView(
+                                    child: Text(
+                                      "${Global.QuotsData[i].quote}",
+                                      overflow: TextOverflow.fade,
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 20,
+                                      ),
                                     ),
                                   ),
                                 ),
                               ),
-                            ),
-                            SizedBox(
-                              height: 10,
-                            ),
-                            Align(
-                              alignment: Alignment.bottomRight,
-                              child: Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Text(
-                                  "- ${Global.QuotsData[i].festival_name}",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.w400,
-                                    fontSize: 13,
+                              SizedBox(
+                                height: 10,
+                              ),
+                              Align(
+                                alignment: Alignment.bottomRight,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Text(
+                                    "- ${Global.QuotsData[i].festival_name}",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.w400,
+                                      fontSize: 13,
+                                    ),
                                   ),
                                 ),
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
                       ),
                     ),

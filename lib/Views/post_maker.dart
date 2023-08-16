@@ -80,7 +80,7 @@ class _Post_MakerState extends State<Post_Maker> {
                       Container(
                         margin: EdgeInsets.only(top: 30),
                         padding: EdgeInsets.all(15),
-                        height: h * .20,
+                        height: h * .17,
                         width: w * .9,
                         decoration: BoxDecoration(
                           border: Border.all(
@@ -88,7 +88,7 @@ class _Post_MakerState extends State<Post_Maker> {
                             width: 2,
                           ),
                           borderRadius: BorderRadius.circular(10),
-                          color: Colors.white,
+                          color: Colors.white.withOpacity(.4),
                         ),
                         child: SingleChildScrollView(
                           child: Column(
@@ -140,7 +140,7 @@ class _Post_MakerState extends State<Post_Maker> {
                       Container(
                         margin: EdgeInsets.only(top: 30),
                         padding: EdgeInsets.all(15),
-                        height: h * .21,
+                        height: h * .18,
                         width: w * .9,
                         decoration: BoxDecoration(
                           border: Border.all(
@@ -148,7 +148,7 @@ class _Post_MakerState extends State<Post_Maker> {
                             width: 2,
                           ),
                           borderRadius: BorderRadius.circular(10),
-                          color: Colors.white,
+                          color: Colors.white.withOpacity(.4),
                         ),
                         child: SingleChildScrollView(
                           child: Column(
@@ -204,15 +204,15 @@ class _Post_MakerState extends State<Post_Maker> {
                           Navigator.pushNamed(context, "create_post");
                         },
                         child: Container(
-                          height: h * .08,
-                          width: w * .9,
+                          height: h * .07,
+                          width: w * .6,
                           decoration: BoxDecoration(
                             border: Border.all(
                               color: Colors.black,
                               width: 2,
                             ),
                             borderRadius: BorderRadius.circular(20),
-                            color: Color(0xffd1eadd),
+                            color: Color(0xffd1eadd).withOpacity(.4),
                           ),
                           alignment: Alignment.center,
                           child: Text(

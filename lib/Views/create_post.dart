@@ -59,7 +59,7 @@ class _Create_PostState extends State<Create_Post> {
           "EDIT POST",
           style: TextStyle(
             fontWeight: FontWeight.bold,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
         leading: IconButton(
@@ -68,7 +68,7 @@ class _Create_PostState extends State<Create_Post> {
           },
           icon: Icon(
             Icons.arrow_back_ios,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
         actions: [
@@ -78,7 +78,7 @@ class _Create_PostState extends State<Create_Post> {
             },
             icon: Icon(
               Icons.share,
-              color: Colors.white,
+              color: Colors.black,
             ),
           ),
           IconButton(
@@ -87,7 +87,7 @@ class _Create_PostState extends State<Create_Post> {
             },
             icon: Icon(
               Icons.copy,
-              color: Colors.white,
+              color: Colors.black,
             ),
           ),
           IconButton(
@@ -101,7 +101,7 @@ class _Create_PostState extends State<Create_Post> {
             },
             icon: Icon(
               Icons.restart_alt,
-              color: Colors.white,
+              color: Colors.black,
             ),
           ),
         ],
@@ -213,18 +213,18 @@ class _Create_PostState extends State<Create_Post> {
                       });
                     },
                     child: Container(
-                      height: h * .1,
-                      width: w * .9,
+                      height: h * .07,
+                      width: w * .6,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Color(0xffd1eadd),
+                        color: Color(0xffd1eadd).withOpacity(.7),
                       ),
                       alignment: Alignment.center,
                       child: Text(
                         "Change BackGroung Color",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 22,
+                          fontSize: 14,
                         ),
                       ),
                     ),
@@ -281,18 +281,18 @@ class _Create_PostState extends State<Create_Post> {
                       });
                     },
                     child: Container(
-                      height: h * .1,
-                      width: w * .9,
+                      height: h * .07,
+                      width: w * .6,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Color(0xffd1eadd),
+                        color: Color(0xffd1eadd).withOpacity(.7),
                       ),
                       alignment: Alignment.center,
                       child: Text(
                         "Change Font Style",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 22,
+                          fontSize: 16,
                         ),
                       ),
                     ),
@@ -341,18 +341,18 @@ class _Create_PostState extends State<Create_Post> {
                       });
                     },
                     child: Container(
-                      height: h * .1,
-                      width: w * .9,
+                      height: h * .07,
+                      width: w * .6,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Color(0xffd1eadd),
+                        color: Color(0xffd1eadd).withOpacity(.7),
                       ),
                       alignment: Alignment.center,
                       child: Text(
                         "Change Font Color",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 22,
+                          fontSize: 16,
                         ),
                       ),
                     ),
@@ -405,18 +405,18 @@ class _Create_PostState extends State<Create_Post> {
                       });
                     },
                     child: Container(
-                      height: h * .1,
-                      width: w * .9,
+                      height: h * .07,
+                      width: w * .6,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Color(0xffd1eadd),
+                        color: Color(0xffd1eadd).withOpacity(.7),
                       ),
                       alignment: Alignment.center,
                       child: Text(
                         "Change BackGroung Image",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 22,
+                          fontSize: 14,
                         ),
                       ),
                     ),

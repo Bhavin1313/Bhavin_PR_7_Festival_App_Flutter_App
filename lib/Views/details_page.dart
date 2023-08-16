@@ -122,7 +122,7 @@ class _Detail_PageState extends State<Detail_Page> {
             width: double.infinity,
             child: SingleChildScrollView(
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   SizedBox(
                     height: 20,
@@ -204,18 +204,18 @@ class _Detail_PageState extends State<Detail_Page> {
                       });
                     },
                     child: Container(
-                      height: h * .1,
-                      width: w * .9,
+                      height: h * .07,
+                      width: w * .6,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Color(0xffd1eadd),
+                        color: Color(0xffd1eadd).withOpacity(.7),
                       ),
                       alignment: Alignment.center,
                       child: Text(
                         "Change BackGroung Color",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 22,
+                          fontSize: 14,
                         ),
                       ),
                     ),
@@ -272,18 +272,18 @@ class _Detail_PageState extends State<Detail_Page> {
                       });
                     },
                     child: Container(
-                      height: h * .1,
-                      width: w * .9,
+                      height: h * .07,
+                      width: w * .6,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Color(0xffd1eadd),
+                        color: Color(0xffd1eadd).withOpacity(.7),
                       ),
                       alignment: Alignment.center,
                       child: Text(
                         "Change Font Style",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 22,
+                          fontSize: 16,
                         ),
                       ),
                     ),
@@ -332,18 +332,18 @@ class _Detail_PageState extends State<Detail_Page> {
                       });
                     },
                     child: Container(
-                      height: h * .1,
-                      width: w * .9,
+                      height: h * .07,
+                      width: w * .6,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Color(0xffd1eadd),
+                        color: Color(0xffd1eadd).withOpacity(.7),
                       ),
                       alignment: Alignment.center,
                       child: Text(
                         "Change Font Color",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 22,
+                          fontSize: 16,
                         ),
                       ),
                     ),
@@ -396,18 +396,18 @@ class _Detail_PageState extends State<Detail_Page> {
                       });
                     },
                     child: Container(
-                      height: h * .1,
-                      width: w * .9,
+                      height: h * .07,
+                      width: w * .6,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: Color(0xffd1eadd),
+                        color: Color(0xffd1eadd).withOpacity(.7),
                       ),
                       alignment: Alignment.center,
                       child: Text(
                         "Change BackGroung Image",
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
-                          fontSize: 22,
+                          fontSize: 14,
                         ),
                       ),
                     ),
